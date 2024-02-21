@@ -19,6 +19,7 @@ h1 {
   font-size: 56px;
   text-align: center;
   text-transform: uppercase; /* Uppercase text for a modern feel */
+  letter-spacing: 2px; /* Added letter spacing for a futuristic touch */
 }
 
 #input-email input {
@@ -65,6 +66,11 @@ h1 {
   height: 75px;
   border: none;
   cursor: pointer; /* Added pointer cursor for better UX */
+  transition: background 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+#submit:hover {
+  background: #5a3fb8; /* Darker shade on hover for a futuristic effect */
 }
 
 #space {
