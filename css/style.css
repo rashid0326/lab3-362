@@ -37,8 +37,13 @@ h1 {
 }
 
 #input-age-verification label {
-  color: #949494;
+  color: #333333; /* Darker text color */
   margin: -20px 0 0 30px; /* Adjusted margins */
+}
+
+#input-age-verification {
+  background-color: #cfe9ff; /* Light blue background */
+  padding: 20px; /* Added padding for better visual separation */
 }
 
 #input-age-verification input[type="checkbox"] {
